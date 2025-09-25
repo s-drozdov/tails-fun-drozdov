@@ -91,7 +91,7 @@ const Page: React.FC = () => {
                         <Image height={40} preview={false} src={linuxIcon} />
                         <Image height={40} preview={false} src={kafkaIcon} />
                         <Image height={40} preview={false} src={typescriptIcon} />
-                        <Image height={40} preview={false} src={materialUiIcon} />
+                        <Image height={40} width={50} preview={false} src={materialUiIcon} />
                         <Image height={40} preview={false} src={symfonyIcon} />
                     </Flex>
                 </Flex>
