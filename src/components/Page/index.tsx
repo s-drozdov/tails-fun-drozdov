@@ -19,7 +19,7 @@ import appleIcon from '../../assets/stack/apple.svg';
 import kafkaIcon from '../../assets/stack/kafka.svg';
 import kubernetesIcon from '../../assets/stack/kubernetes.svg';
 import linuxIcon from '../../assets/stack/linux.svg';
-import materialUiIcon from '../../assets/stack/material-ui.svg';
+import reduxSagaIcon from '../../assets/stack/redux-saga.svg';
 import symfonyIcon from '../../assets/stack/symfony.svg';
 import typescriptIcon from '../../assets/stack/typescript.svg';
 import Footer from '../Footer';
@@ -91,7 +91,7 @@ const Page: React.FC = () => {
                         <Image height={40} preview={false} src={linuxIcon} />
                         <Image height={40} preview={false} src={kafkaIcon} />
                         <Image height={40} preview={false} src={typescriptIcon} />
-                        <Image height={40} width={50} preview={false} src={materialUiIcon} />
+                        <Image height={40} preview={false} src={reduxSagaIcon} />
                         <Image height={40} preview={false} src={symfonyIcon} />
                     </Flex>
                 </Flex>
